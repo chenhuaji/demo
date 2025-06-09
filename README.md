@@ -1,2 +1,1 @@
-# yoursfuture
-相册
+https://chenhuaji.github.io/demo
