@@ -25,7 +25,7 @@ function insertCarousel(img) {
 }
 
 function insertPhoto(number, description) {
-  for (var i = 0; i < number; i++) {
+  for (var i = 1; i < number; i++) {
     html = ''
     html += '<div><div class="portfolio-box zoom-effect">';
     html += '<a href="images/' + i + '.jpg" data-lightbox="example-set"><img src="images/' + i + '-thumb.jpg" class="img-responsive" alt="">';
