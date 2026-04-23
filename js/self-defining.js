@@ -39,9 +39,12 @@ function insertPhoto(number, description) {
 }
 
 function minHeight() {
-  var a = $('#photoleft').children().length
-  var b = $('#photoconcer').children().length
-  var c = $('#photoright').children().length
+  // var a = $('#photoleft').children().length
+  // var b = $('#photoconcer').children().length
+  // var c = $('#photoright').children().length
+  var a = 3
+  var b = 3
+  var c = 3
   console.log(a + ',' + b + ',' + c);
   return a <= b ? (a <= c ? '#photoleft' : '#photoright') : (b <= c ? '#photoconcer' : '#photoright')
 }
